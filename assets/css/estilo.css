@@ -1,21 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
 .titulo{
     font-family:'Lobster', cursive;
+    font: green;
     font-size: 3rem;
     font-style: italic;
     text-align: center;
+    border: dotted;
+    border-width: 10px 4px;
+    border-radius: 10px 40px;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 .parrafo{
+    text-align: center ;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight:lighter;
-    background-color: rgba(34, 124, 34, 0.514);
+    border: double;
+    border-width: 5px 3px;
+    border-radius: 64px 12px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
-.parra{
-    border-radius: 3px;
-    border-left: 2px solid black;
-    border-right: 5px dotted red;
-    border-top: 8px double blue;
-    border-bottom: 4px dashed green;
-}
-
