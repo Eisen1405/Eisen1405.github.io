@@ -48,3 +48,7 @@ li{
 .refper{
     text-indent:0.2rem;
 }
+
+@media (min-width: 576px) and (max-width:768){
+    
+}
