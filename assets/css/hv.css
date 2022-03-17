@@ -1,4 +1,4 @@
-.encabezado{
+/* .encabezado{
     font-family: Arial, Helvetica, sans-serif;
     color: aqua;
     text-indent: 25%;
@@ -47,8 +47,61 @@ li{
 }
 .refper{
     text-indent:0.2rem;
-}
+} */
 
-@media (min-width: 576px) and (max-width:768){
+@media (min-width: 576px) and (max-width: 768px){
+    body{
+        align-content: center;
+    }
+    .encabezado{
+        font-family: Arial, Helvetica, sans-serif;
+        color: aqua;
+        text-indent: 3%;
+        white-space: pre-wrap;
+        background-color: blue;
+        padding-top:1rem;
+        padding-bottom:2rem;
+        padding-left: -18rem;
+    }
+    .encabezado2{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color:#26EB92;
+        padding: 5px;
+        padding-left: 12rem;
+
     
+    }
+    article{
+        text-align: center;
+    }
+    b{
+        font-size:22px;
+    }
+    a{
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 7.6rem;
+        font-size: small;
+    }
+    body{
+        text-indent: 15%;
+        border:currentColor
+    }
+    img{
+        margin-right: 10rem;
+        padding-left: 7rem;
+        padding-top: 1rem;
+    
+    }
+    ol{
+        margin-left: 5rem;
+    }
+    ul{
+        margin-left: 5rem;
+    }
+    li{
+        text-indent: -6.9rem;
+    }
+    .refper{
+        text-indent:0.2rem;
+    }
 }
